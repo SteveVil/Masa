@@ -2719,4 +2719,14 @@ a.text-error:focus, a.text-error:hover {
   word-break: break-word;
   word-wrap: break-word; }
 
+html, body {
+  height: 100%; }
+
+header {
+  background-image: url(../img/massage2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+
 /*# sourceMappingURL=masaze.css.map */
