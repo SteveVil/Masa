@@ -1,10 +1,19 @@
 html, body {
     height: 100%;
 }
+.handw {
+    font-family: 'Great Vibes', cursive;
+}
 header {
     background-image: url(../img/massage2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 60%;
+}
+
+
+
+.uppercase  {
+    text-transform: uppercase;
 }
