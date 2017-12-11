@@ -1,19 +1,47 @@
 html, body {
     height: 100%;
+    text-align: center;
 }
-.handw {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: normal;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.handwright{
     font-family: 'Great Vibes', cursive;
 }
-header {
+
+#hero {
+    width:100%;
+    height: 480px;
+    
+}
+.bg-image {
+    position: absolute;
     background-image: url(../img/massage2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 60%;
+    width:100%;
+    min-height: 480px;
+    z-index: -1;
+    
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+    
+    
 }
 
-
-
-.uppercase  {
-    text-transform: uppercase;
+#main-footer {
+    background-color: darkgrey;
+    color: white;
+    
 }
