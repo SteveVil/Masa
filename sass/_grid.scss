@@ -7,11 +7,12 @@
 .card {
     display: grid;
     grid-template-columns: 3fr 7fr;
-    grid-template-rows: 2;
+    grid-template-rows: 3;
     
 }
-.card-image {
+.card-image, hr {
     grid-column: span 2;
+   
 }
 
 @media(min-width: 700px){

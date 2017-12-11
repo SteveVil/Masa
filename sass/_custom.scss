@@ -20,7 +20,10 @@ h6 {
 #hero {
     width:100%;
     height: 480px;
-    
+}
+#main {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .bg-image {
     position: absolute;
@@ -33,13 +36,34 @@ h6 {
     z-index: -1;
     
 }
+//
+//CARDS 
+//
+.card {
+    margin-bottom: 5px;
+}
 .card-image img {
     width: 100%;
     height: auto;
-    
-    
+    display: block; 
 }
-
+.card-price {
+    color: white;
+    background-color: orange;
+ }
+.card-text, .card-price {
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr {
+    border-top: 0.3px solid lightgray;
+    width: 90%;
+    margin-top: 10px;
+}
+//
+//Footer
+//
 #main-footer {
     background-color: darkgrey;
     color: white;
